@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.custom-navbar {
+  background: #b6cdbd;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.nav-link:hover {
+  color: white;
+  text-transform: lowercase;
+  text-shadow: 12px 12px 14px rgba(0, 0, 0, 5.5);
+}
+
+.dark-mode {
+  background-color: #243f3e;
+}

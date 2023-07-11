@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700;800&family=Domine&family=Poppins&family=Roboto+Serif:wght@400;600;900&display=swap");
+.App {
+  background-color: #b6cdbd;
+}
+
+/* About section */
+.avatar {
+  width: 250px;
+  border-radius: 1em;
+  box-shadow: 10px 10px 15px rgb(47, 73, 58);
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 80em;
+  padding: 0 30px;
+  padding-top: 55px;
+}
+
+#about p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 900;
+}
+
+#about h2,
+#skills h2,
+#certification h2,
+#projects h2,
+#contact h2 {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 900;
+  font-size: 75px;
+  color: #34573e;
+}
+
+hr {
+  color: #101b13 !important;
+}
+
+/* Skills section */
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 80em;
+  padding: 0 50px;
+  padding-top: 55px;
+}
+
+.tools--icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.tools--icons > div {
+  flex-basis: 110px;
+  min-width: 100px;
+}
+
+@media (max-width: 430px) {
+  .tools--icons {
+    gap: 35px;
+  }
+}
+
+.tools--icons > div {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.tools--icons > div:hover {
+  transform: scale(1.2);
+}
+
+.tools--icons > div:hover p {
+  opacity: 1;
+  animation: bounce-in 0.5s;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.tools--icons p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 900;
+  position: absolute;
+  opacity: 0;
+}
+
+.tools--icons i {
+  font-size: 100px;
+}
+
+section ul li {
+  margin: 20px 0;
+}
+
+/* Certification section */
+.cert-img {
+  max-width: 200px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.top-img {
+  max-width: 350px;
+}
+
+.theodinproject {
+  margin-right: -100px;
+}
+
+.certification--container a:hover,
+.theodinproject:hover {
+  #certification {
+    padding-top: 55px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+
+#certification {
+  padding-top: 55px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.certification--container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-left: -50px;
+}
+
+.certification--container a {
+  text-decoration: none;
+}
+
+.certification--container h3 {
+  font-size: 16px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  margin-top: 10px;
+  width: 100px;
+  opacity: 0;
+}
+
+#certification h2 {
+  padding-left: 30px;
+  margin-bottom: -15px;
+}
+
+.certification--container a:hover h3,
+.certification--container .theodinproject:hover h3 {
+  opacity: 1;
+  animation: bounce-in 0.5s;
+}
+
+.odinproject-img {
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: -15px;
+  max-width: 100%;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 936px) {
+  .certification--container a {
+    margin-left: 30%;
+  }
+  .theodinproject {
+    margin-left: 10%;
+  }
+
+  #certification h2 {
+    font-size: 55px;
+  }
+}
+
+/* Project section  */
+.project-img {
+  max-width: 70%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#projects {
+  padding-top: 55px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 77em;
+  margin-top: -80px;
+}
+
+#projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#projects li {
+  width: 40%;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 21px 12px 26px rgba(0, 0, 0, 0.452);
+  min-width: 250px;
+  margin-left: 45px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+a.demo-btn,
+a.code-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightseagreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+a.code-btn {
+  background-color: gray;
+}
+
+.calculator-container {
+  margin-left: 29% !important;
+}
+
+#projects h3 {
+  font-family: "Abhaya Libre", serif;
+}
+
+@media (max-width: 950px) {
+  .calculator-container {
+    margin-left: 30px !important;
+  }
+}
+
+@media (max-width: 946px) {
+  #projects li {
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 650px) {
+  #projects li {
+    margin-left: 25px;
+    margin-right: 45px;
+  }
+}
+
+/* Project Conainer Animation */
+li {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 157, 0, 0.1),
+    rgba(255, 205, 2, 0.1),
+    rgba(249, 245, 0, 0.1),
+    rgba(35, 235, 19, 0.1),
+    rgba(35, 194, 235, 0.1),
+    rgba(198, 30, 125, 0.1),
+    rgba(247, 60, 0, 0.1)
+  );
+  background-size: 800% 200%;
+  animation: gradient-animation 8s ease-in-out infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Contact  */
+.contact-container {
+  background-color: #1b494b;
+  height: 50em;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7em;
+}
+
+#contact h2 {
+  color: white;
+  margin-bottom: -20px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#contact a:hover::after {
+  content: "\261C";
+  display: inline-block;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+@media (max-width: 510px) {
+  #contact a {
+    font-size: 30px;
+  }
+}
+
+/* Set footer styles */
+footer {
+  background-color: #1b494b;
+  color: #f6f6f6;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+.git-logo {
+  border-radius: 30px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: -18px;
+}
