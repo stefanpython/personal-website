@@ -2,6 +2,8 @@
 
 This is a personal website project showcasing my skills, projects, and contact information.
 
+Demo [HERE](https://stefanpython.github.io/personal-website/)
+
 ## Table of Contents
 
 - [Description](#description)
@@ -35,26 +37,30 @@ The website is built using React, JavaScript, HTML, and CSS. It includes section
    ```bash
    git clone https://github.com/your-username/personal-website.git
 
+   ```
 
 2. Navigate to the project directory:
 
    ```bash
    cd personal-website
 
+   ```
 
 3. Install dependencies:
 
    ```bash
    npm install
 
+   ```
 
 4. Start the development server:
 
    ```bash
    npm start
 
+   ```
 
 5. Open the website in your browser:
    ```bash
    http://localhost:3000
-
+   ```
