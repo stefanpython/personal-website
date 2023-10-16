@@ -3,6 +3,19 @@ import "./App.css";
 import CustomNavbar from "./components/Navbar";
 import Animation from "./components/Animation";
 
+import me from "./images/me.jpg";
+import battleship from "./images/battleship.png";
+import calculator from "./images/calculator.png";
+import cs50w from "./images/cs50w.png";
+import cs50x from "./images/cs50x.png";
+import inventory from "./images/inventory.png";
+import membersonly from "./images/membersonly.png";
+import odin from "./images/odin.png";
+import odinbook from "./images/odinbook.png";
+import shopingcart from "./images/shopping-cart.png";
+import todolist from "./images/todolist.png";
+import top from "./images/top.png";
+
 function App() {
   const [isImageVisible, setImageVisible] = useState(false);
 
@@ -19,11 +32,7 @@ function App() {
       {/* About section  */}
       <section id="about">
         <h2>About me</h2>
-        <img
-          className="avatar"
-          src="./images/me.jpg"
-          alt="avatar placeholder"
-        />
+        <img className="avatar" src={me} alt="avatar placeholder" />
 
         <br />
         <ul>
@@ -120,36 +129,24 @@ function App() {
           <hr />
           <div className="certification--container">
             <a href="https://certificates.cs50.io/e434c454-d200-4ccd-a308-ce32fb560d22.png?size=letter">
-              <img
-                className="cert-img"
-                src="images/cs50x.png"
-                alt="cs50 logo"
-              />
+              <img className="cert-img" src={cs50x} alt="cs50 logo" />
               <h3>CS50's Introduction to Computer Science</h3>
             </a>
             <br /> <br />
             <a href="https://certificates.cs50.io/0608492f-e1b9-4169-8e36-c37a61101a3d.png?size=letter">
-              <img
-                className="cert-img"
-                src="images/cs50w.png"
-                alt="cs50w logo"
-              />
+              <img className="cert-img" src={cs50w} alt="cs50w logo" />
               <h3>CS50's Web Programming with Python and JavaScript</h3>
             </a>
             <br /> <br />
             <div className="theodinproject" onClick={toggleImageVisibility}>
-              <img
-                className="top-img"
-                src="images/top.png"
-                alt="the odin project logo"
-              />
+              <img className="top-img" src={top} alt="the odin project logo" />
               <h3 style={{ marginLeft: "140px" }}>Click me!</h3>
             </div>
           </div>
           {isImageVisible && (
             <img
               className="odinproject-img"
-              src="images/odin.png"
+              src={odin}
               alt="the odin project"
             />
           )}
@@ -166,7 +163,7 @@ function App() {
             <li>
               <h3>Odinbook</h3>
 
-              <img className="project-img" src="images/odinbook.png" alt="" />
+              <img className="project-img" src={odinbook} alt="" />
               <br />
               <p>
                 Odin Book is a social media platform where users can connect
@@ -192,7 +189,7 @@ function App() {
             </li>
             <li>
               <h3>Game Inventory</h3>
-              <img className="project-img" src="images/inventory.png" alt="" />
+              <img className="project-img" src={inventory} alt="" />
               <br />
               <p>
                 Website where you can add, remove, update, delete (CRUD) games.
@@ -217,11 +214,7 @@ function App() {
             </li>
             <li>
               <h3>Members Only</h3>
-              <img
-                className="project-img"
-                src="images/membersonly.png"
-                alt=""
-              />
+              <img className="project-img" src={membersonly} alt="" />
               <br />
               <p>
                 Members Only is a web application that allows users to join a
@@ -247,7 +240,7 @@ function App() {
             </li>
             <li>
               <h3>DOMore To-Do List</h3>
-              <img className="project-img" src="images/todolist.png" alt="" />
+              <img className="project-img" src={todolist} alt="" />
               <br />
               <p>
                 To-Do list made with Vanilla Javascript. Features: Add projects,
@@ -273,11 +266,7 @@ function App() {
             </li>
             <li>
               <h3>Shopping Cart</h3>
-              <img
-                className="project-img"
-                src="images/shopping-cart.png"
-                alt="homepage"
-              />
+              <img className="project-img" src={shopingcart} alt="homepage" />
               <br />
               <p>
                 Shopping Cart website made with React using props, hooks and api
@@ -302,7 +291,7 @@ function App() {
             </li>
             <li>
               <h3>Battleship</h3>
-              <img className="project-img" src="images/battleship.png" alt="" />
+              <img className="project-img" src={battleship} alt="" />
               <br />
 
               <p>
@@ -328,7 +317,7 @@ function App() {
             </li>
             <li className="calculator-container">
               <h3>Elemental Calculator </h3>
-              <img className="project-img" src="images/calculator.png" alt="" />
+              <img className="project-img" src={calculator} alt="" />
               <br />
               <p>
                 Calculator application made with Vanilla Javascript. Features:
