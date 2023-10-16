@@ -187,6 +187,33 @@ function App() {
                 </a>
               </div>
             </li>
+
+            <li>
+              <h3>Shopping Cart</h3>
+              <img className="project-img" src={shopingcart} alt="homepage" />
+              <br />
+              <p>
+                Shopping Cart website made with React using props, hooks and api
+                from fakestoore.com. Features: Add items to cart, correctly
+                update number of items in cart, add/substract items from card
+                using +/- buttons, correctly update the total price.
+              </p>
+              <div className="project-buttons">
+                <a
+                  className="demo-btn"
+                  href="https://stefanpython.github.io/shopping-cart-project/"
+                >
+                  Demo
+                </a>
+                <a
+                  className="code-btn"
+                  href="https://github.com/stefanpython/shopping-cart-project"
+                >
+                  Code
+                </a>
+              </div>
+            </li>
+
             <li>
               <h3>Game Inventory</h3>
               <img className="project-img" src={inventory} alt="" />
@@ -264,31 +291,7 @@ function App() {
                 </a>
               </div>
             </li>
-            <li>
-              <h3>Shopping Cart</h3>
-              <img className="project-img" src={shopingcart} alt="homepage" />
-              <br />
-              <p>
-                Shopping Cart website made with React using props, hooks and api
-                from fakestoore.com. Features: Add items to cart, correctly
-                update number of items in cart, add/substract items from card
-                using +/- buttons, correctly update the total price.
-              </p>
-              <div className="project-buttons">
-                <a
-                  className="demo-btn"
-                  href="https://stefanpython.github.io/shopping-cart-project/"
-                >
-                  Demo
-                </a>
-                <a
-                  className="code-btn"
-                  href="https://github.com/stefanpython/shopping-cart-project"
-                >
-                  Code
-                </a>
-              </div>
-            </li>
+
             <li>
               <h3>Battleship</h3>
               <img className="project-img" src={battleship} alt="" />
@@ -341,6 +344,16 @@ function App() {
             </li>
           </ul>
         </div>
+
+        <br />
+        <h4>See more</h4>
+        <a
+          className="here"
+          href="https://github.com/stefanpython?tab=repositories"
+        >
+          &#x290D; Here &#x290C;
+        </a>
+        <br />
       </section>
       {/* Contact */}
       <div className="contact-container">
