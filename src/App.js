@@ -19,7 +19,11 @@ function App() {
       {/* About section  */}
       <section id="about">
         <h2>About me</h2>
-        <img className="avatar" src="images/me.jpg" alt="avatar placeholder" />
+        <img
+          className="avatar"
+          src="./images/me.jpg"
+          alt="avatar placeholder"
+        />
 
         <br />
         <ul>

@@ -13,6 +13,10 @@
   font-weight: 900;
 }
 
+.links {
+  margin-right: 20px;
+}
+
 .nav-link:hover {
   color: white;
   text-transform: lowercase;

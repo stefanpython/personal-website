@@ -57,10 +57,6 @@ const Animation = () => {
   return (
     <div className="intro-container">
       <div className="animate-container" ref={containerRef}>
-        {/* <div className="animate-me">Success.Faith</div>
-        <div className="animate-me">Fulfillment.Love.Wisdom</div>
-        <div className="animate-me">Peace.Appreciation.Here</div>
-        <div className="animate-me">Love.Gratitude</div> */}
         <div className="animate-me">
           <span className="success">Success</span>.Optimism.Courage
         </div>
