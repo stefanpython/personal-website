@@ -2,9 +2,6 @@
 
 .App {
   background-color: #b6cdbd;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
 }
 
 /* About section */
@@ -209,6 +206,10 @@ section ul li {
 
   #certification h2 {
     font-size: 55px;
+  }
+
+  .App {
+    margin-left: -14px;
   }
 }
 
