@@ -15,6 +15,8 @@ import odinbook from "./images/odinbook.png";
 import shopingcart from "./images/shopping-cart.png";
 import todolist from "./images/todolist.png";
 import top from "./images/top.png";
+import ecom from "./images/ecom.png";
+import chat from "./images/chat.png";
 
 function App() {
   const [isImageVisible, setImageVisible] = useState(false);
@@ -246,25 +248,51 @@ function App() {
             </li>
 
             <li>
-              <h3>Shopping Cart</h3>
-              <img className="project-img" src={shopingcart} alt="homepage" />
+              <h3>E-commerce full stack</h3>
+              <img className="project-img" src={ecom} alt="homepage" />
               <br />
               <p>
-                Shopping Cart website made with React using props, hooks and api
-                from fakestoore.com. Features: Add items to cart, correctly
-                update number of items in cart, add/substract items from card
-                using +/- buttons, correctly update the total price.
+                Ecommerce full stack (MERN) website made with React on the
+                frontend and using Node.js, Express and MongoDB for the backend.
+                Features: Add items to cart, correctly update number of items in
+                cart, add/substract items from cart, correctly update the total
+                price, placing orders, search items and more...
               </p>
               <div className="project-buttons">
                 <a
                   className="demo-btn"
-                  href="https://stefanpython.github.io/shopping-cart-project/"
+                  href="https://stefanpython.github.io/ecom-express-frontend/"
                 >
                   Demo
                 </a>
                 <a
                   className="code-btn"
-                  href="https://github.com/stefanpython/shopping-cart-project"
+                  href="https://github.com/stefanpython/ecom-express-frontend"
+                >
+                  Code
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <h3>Chat Now</h3>
+              <img className="project-img" src={chat} alt="" />
+              <br />
+              <p>
+                Chat Now is a chat web application that allows users to join a
+                room where they can send and recieve messages in real-time.
+                Enter your name, the name of the chatroom you wish to join and
+                start chatting. React was used for the frontend and firebase for
+                the backend.
+              </p>
+
+              <div className="project-buttons">
+                <a className="demo-btn" href="https://chatnow-668cb.web.app/">
+                  Demo
+                </a>
+                <a
+                  className="code-btn"
+                  href="https://github.com/stefanpython/chat-now"
                 >
                   Code
                 </a>
@@ -296,32 +324,7 @@ function App() {
                 </a>
               </div>
             </li>
-            <li>
-              <h3>Members Only</h3>
-              <img className="project-img" src={membersonly} alt="" />
-              <br />
-              <p>
-                Members Only is a web application that allows users to join a
-                private club where they can post messages. The application
-                provides a platform for users to communicate within a trusted
-                community.
-              </p>
 
-              <div className="project-buttons">
-                <a
-                  className="demo-btn"
-                  href="https://members-only1.up.railway.app/"
-                >
-                  Demo
-                </a>
-                <a
-                  className="code-btn"
-                  href="https://github.com/stefanpython/members-only"
-                >
-                  Code
-                </a>
-              </div>
-            </li>
             <li>
               <h3>DOMore To-Do List</h3>
               <img className="project-img" src={todolist} alt="" />
