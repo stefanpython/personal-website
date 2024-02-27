@@ -2,7 +2,9 @@
 
 .App {
   background-color: #b6cdbd;
-  margin-right: -14px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 /* About section */

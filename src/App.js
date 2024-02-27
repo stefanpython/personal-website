@@ -44,11 +44,11 @@ function App() {
             Ubuntu, so I'm comfortable working with different operating systems.
             I've completed both Harvard's CS50x and CS50w courses, which have
             given me a solid foundation in computer science concepts and web
-            development. Currently, I'm in the process of finishing The Odin
-            Project, a comprehensive web development curriculum that's been
-            great for expanding my full-stack skills. I'm always excited to take
-            on new projects and challenges, and I think my skills and experience
-            make me a great asset to any team.
+            development. I have also finished The Odin Project, a comprehensive
+            web development curriculum that's been great for expanding my
+            full-stack skills. I'm always excited to take on new projects and
+            challenges, and I think my skills and experience make me a great
+            asset to any team.
           </p>
         </ul>
       </section>
@@ -67,6 +67,13 @@ function App() {
               <i className="devicon-react-plain colored"></i>
               <p style={{ marginLeft: "25px" }}>React</p>
             </div>
+
+            <div>
+              <i className="devicon-reactrouter-plain-wordmark colored"></i>
+
+              <p>React Router</p>
+            </div>
+
             <div>
               <i className="devicon-visualstudio-plain colored"></i>
               <p>Visual Studio</p>
@@ -91,14 +98,46 @@ function App() {
               <i className="devicon-mongodb-plain-wordmark colored"></i>
               <p style={{ marginLeft: "8px" }}>mongoDB</p>
             </div>
+
             <div>
               <i className="devicon-css3-plain-wordmark colored"></i>
               <p style={{ marginLeft: "28px" }}>CSS3</p>
             </div>
+
+            <div>
+              <i className="devicon-tailwindcss-original colored"></i>
+
+              <p>TailwindCSS</p>
+            </div>
+
+            <div>
+              <i className="devicon-postman-plain colored"></i>
+              <p style={{ marginLeft: "12px" }}>Postman</p>
+            </div>
+
+            <div>
+              <i className="devicon-vite-original colored"></i>
+
+              <p style={{ marginLeft: "12px" }}>Vite</p>
+            </div>
+
+            <div>
+              <i className="devicon-vitest-plain colored"></i>
+
+              <p style={{ marginLeft: "25px" }}>Vitest</p>
+            </div>
+
             <div>
               <i className="devicon-bootstrap-plain colored"></i>
               <p style={{ marginLeft: "10px" }}>Bootstrap</p>
             </div>
+
+            <div>
+              <i class="devicon-reactbootstrap-original colored"></i>
+
+              <p style={{ marginLeft: "10px" }}>Reactbootstrap</p>
+            </div>
+
             <div>
               <i className="devicon-github-plain colored"></i>
               <p style={{ marginLeft: "23px" }}>Github</p>
@@ -115,6 +154,24 @@ function App() {
             <div>
               <i className="devicon-webpack-plain colored"></i>
               <p style={{ marginLeft: "10px" }}>Webpack</p>
+            </div>
+
+            <div>
+              <i className="devicon-json-plain colored"></i>
+
+              <p style={{ marginLeft: "26px" }}>JSON</p>
+            </div>
+
+            <div>
+              <i className="devicon-mongoose-original-wordmark colored"></i>
+
+              <p style={{ marginLeft: "6px" }}>Mongoose</p>
+            </div>
+
+            <div>
+              <i class="devicon-railway-original-wordmark"></i>
+
+              <p style={{ marginLeft: "20px" }}>Railway</p>
             </div>
           </div>
         </ul>
@@ -375,7 +432,7 @@ function App() {
       </div>
 
       <footer>
-        <p>&copy; 2023 - Stefan Andrei</p>
+        <p>&copy; 2024 - Stefan Andrei</p>
         <a href="https://github.com/stefanpython">
           <img
             className="git-logo"
