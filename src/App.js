@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import CustomNavbar from "./components/Navbar";
 import Animation from "./components/Animation";
@@ -9,10 +9,10 @@ import calculator from "./images/calculator.png";
 import cs50w from "./images/cs50w.png";
 import cs50x from "./images/cs50x.png";
 import inventory from "./images/inventory.png";
-import membersonly from "./images/membersonly.png";
+
 import odin from "./images/odin.png";
 import odinbook from "./images/odinbook.png";
-import shopingcart from "./images/shopping-cart.png";
+
 import todolist from "./images/todolist.png";
 import top from "./images/top.png";
 import ecom from "./images/ecom.png";
@@ -24,6 +24,30 @@ function App() {
   const toggleImageVisibility = () => {
     setImageVisible(!isImageVisible);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      sections.forEach((section, index) => {
+        const sectionTop = section.offsetTop - 500; // Adjusted for navbar height
+        const sectionBottom = sectionTop + section.clientHeight;
+
+        if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
+          navLinks.forEach((link) => link.classList.remove("section-view"));
+          navLinks[index].classList.add("section-view");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="App">

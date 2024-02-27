@@ -19,9 +19,6 @@ const CustomNavbar = () => {
       />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto links">
-          <Nav.Link className="nav-link" href="#home" onClick={closeMenu}>
-            Home
-          </Nav.Link>
           <Nav.Link className="nav-link" href="#about" onClick={closeMenu}>
             About
           </Nav.Link>
