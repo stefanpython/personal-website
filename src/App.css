@@ -304,6 +304,15 @@ a.code-btn {
   }
 }
 
+@media (max-width: 360px) {
+  .tools--icons i {
+    font-size: 80px;
+  }
+
+  .tools--icons > div {
+    flex-basis: 90px;
+  }
+}
 /* Project Conainer Animation */
 li {
   background: linear-gradient(
