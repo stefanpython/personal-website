@@ -272,7 +272,7 @@ function App() {
             </li>
 
             <li>
-              <h3>E-commerce full stack</h3>
+              <h3>Ecomm Express</h3>
               <img className="project-img" src={ecom} alt="homepage" />
               <br />
               <p>

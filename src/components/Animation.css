@@ -24,7 +24,7 @@ span {
 .scroll-down-arrow {
   position: absolute;
   bottom: 30px;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
   width: 40px;
   height: 40px;
@@ -44,7 +44,7 @@ span {
   height: 20px;
   transform: rotate(45deg);
   opacity: 0;
-  transition: opacity 0.5s ease-in-out 1s;
+  transition: opacity 0.3s ease-in-out 0.1s;
 }
 
 .arrow:after {
@@ -75,13 +75,13 @@ span {
 .first {
   opacity: 0;
   transform: translate(20px);
-  animation: fade-in 2s ease-in-out 1s forwards;
+  animation: fade-in 1s ease-in-out 0.5s forwards;
 }
 
 .second {
   opacity: 0;
   transform: translate(20px);
-  animation: fade-in 2s ease-in-out 2.5s forwards;
+  animation: fade-in 1s ease-in-out 1.5s forwards;
 }
 
 @keyframes fade-in {
