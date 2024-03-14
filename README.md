@@ -35,7 +35,7 @@ The website is built using React, JavaScript, HTML, and CSS. It includes section
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/personal-website.git
+   git clone https://github.com/stefanpython/personal-website.git
 
    ```
 
