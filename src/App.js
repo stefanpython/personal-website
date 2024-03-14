@@ -17,6 +17,7 @@ import todolist from "./images/todolist.png";
 import top from "./images/top.png";
 import ecom from "./images/ecom.png";
 import chat from "./images/chat.png";
+import movie from "./images/movie.png";
 
 function App() {
   const [isImageVisible, setImageVisible] = useState(false);
@@ -299,6 +300,33 @@ function App() {
             </li>
 
             <li>
+              <h3>Vanilla MovieDB</h3>
+              <img className="project-img" src={movie} alt="" />
+              <br />
+              <p>
+                VMDB is a web application that allows users to discover trending
+                movies and TV shows, search for their favorite titles, and
+                access details about movies and TV shows in real-time using
+                react and API`s from TMDB.
+              </p>
+
+              <div className="project-buttons">
+                <a
+                  className="demo-btn"
+                  href="https://stefanpython.github.io/vanilla-movie-db/"
+                >
+                  Demo
+                </a>
+                <a
+                  className="code-btn"
+                  href="https://github.com/stefanpython/vanilla-movie-db"
+                >
+                  Code
+                </a>
+              </div>
+            </li>
+
+            <li>
               <h3>Chat Now</h3>
               <img className="project-img" src={chat} alt="" />
               <br />
@@ -317,32 +345,6 @@ function App() {
                 <a
                   className="code-btn"
                   href="https://github.com/stefanpython/chat-now"
-                >
-                  Code
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <h3>Game Inventory</h3>
-              <img className="project-img" src={inventory} alt="" />
-              <br />
-              <p>
-                Website where you can add, remove, update, delete (CRUD) games.
-                Or any items for that matter. This app is built using NodeJS,
-                Express, MongoDB Atlas and EJS.
-              </p>
-
-              <div className="project-buttons">
-                <a
-                  className="demo-btn"
-                  href="https://game-inventory.up.railway.app/catalog"
-                >
-                  Demo
-                </a>
-                <a
-                  className="code-btn"
-                  href="https://github.com/stefanpython/game-inventory-app"
                 >
                   Code
                 </a>
