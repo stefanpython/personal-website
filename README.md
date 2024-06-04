@@ -11,11 +11,11 @@ Demo [HERE](https://stefanpython.github.io/personal-website/)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 
-## Description
+<!-- ## Description
 
 The personal website is a single-page web application that provides information about the developer, their skills, projects, and ways to get in touch. It serves as an online portfolio to showcase the developer's work and capabilities.
 
-The website is built using React, JavaScript, HTML, and CSS. It includes sections such as "About Me," "Skills," "Projects," and "Contact."
+The website is built using React, JavaScript, HTML, and CSS. It includes sections such as "About Me," "Skills," "Projects," and "Contact." -->
 
 ## Features
 
